@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Moja stranica</title>
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="./style.css">
     </head>
     <body>
         <header class="Header">
@@ -10,5 +10,46 @@
                 <h1 class="full-width-header">Moja stranica sa vertikalnim tabovima</h1>
             </div>
         </header>
+        <div class="content">
+     <section class="tabs-container">
+         <label for="tab1">Priroda</label>
+         <label for="tab2">Cvijeće</label>
+         <label for="tab3">Planine</label>
+         <label for="tab4">Zgrade</label>
+         <label for="tab5">Ceste</label>
+         <label for="tab6">Šume</label>
+     </section>
+
+     <input name="tab" id="tab1" type="radio" checked />
+     <section class="tab-content">
+         <h2>Priroda</h2>
+         <p>Neki moj tekst koji je povezan s prirodom</p>
+          <p>Opis koji će se odnositi na prethodnu sliku prirode</p>
+     </section>
+
+     <input name="tab" id="tab2" type="radio" />
+     <section class="tab-content">
+         <h2>Cvijeće</h2>
+         <p>Neki moj tekst koji je povezan sa cvijecem</p>
+     </section>
+
+     <input name="tab" id="tab3" type="radio" />
+     <section class="tab-content">
+         <h2>Planine</h2>
+         <p>Neki moj tekst koji je povezan sa planinom</p>
+     </section>
+
+     <input name="tab" id="tab4" type="radio" />
+     <section class="tab-content">
+         <h2>Zgrade</h2>
+         <p>Neki moj tekst koji je povezan sa zgradama</p>
+     </section>
+
+     <input name="tab" id="tab5" type="radio" />
+     <section class="tab-content">
+         <h2>Cvijeće</h2>
+         <p>Neki moj tekst koji je povezan sa cestom</p>
+     </section>
+    </div>
     </body>
 </html>
