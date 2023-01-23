@@ -1,0 +1,38 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+       <style>
+           body{
+               font-family: Arial, Helvetica, sans-serif;
+           }
+           div p{
+               text-decoration: underline;
+           }
+           .naznaka p{
+               color: red;
+           }
+           .naznaka .tekst{
+               background: yellow;
+               font-style: italic;
+           }
+       </style>
+    </head>
+    <body>
+        <div class="naznaka">
+            <p>
+                Paragraf unutar div-a, paragraf je prvi potomak div elementa,
+                na njemu je primenjena samo dekoracija podcrtanosti
+            </p>
+            <p>Paragraf unutar div-a, paragraf je prvi potomak div elementa,
+                na njemu je primenjena nasljedna dekoracija podcrtanosti,
+            no takodjer i svojstvo boje koje je definiramo u klasi za paragraf element</p>
+
+            <p class="tekst">Paragraf unutar div-a, paragraf je prvi potomak div elementa,
+                na njemu je primenjena nasljedna dekoracija podcrtanosti,
+            no takodjer i svojstvo stoča font italic i pozadinske boje jer je primenjeno 
+            svojstvo navedene klase</p>
+        </div>
+      
+        
+    </body>
+</html>

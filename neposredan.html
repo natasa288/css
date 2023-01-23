@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+          p + p {
+              text-transform: uppercase;
+          }
+          div + p + span{
+              color: red;
+              text-transform: uppercase;
+          }
+        </style>
+        <body>
+           <p>Prvi općeniti paragraf na kojem nema nikakve primjene stila </p> 
+           <p>Drugi paragraf koji je mneposredan susjed prethodnog paragrafa i na njemu
+               primenjujemo svojstvo tekstualne tranformacije velikih sliva</p>
+
+        <div>
+            <p>Ovo je paragraf unutar div elementa i na njega ne želimo primjeniti nikakva svojstva</p>
+        </div>
+        <hr>
+        <div>Ovo je drugi primjer u kojem je ovaj tekst unutar div elementa</div>
+        <p>Ovaj tekst je paragraf u istoj strukturi kao i div element</p>
+        <span>Ovaj tekst je span element u istoj strukturi kao prethodni div i 
+            paragraf element te na njega primenjujemo svojstvo neposrednog susjeda
+        </span>
+        </body>
+    </head>
+</html>
